@@ -1,0 +1,50 @@
+# GPT5 Marketing
+
+> GPT5 Marketing is an independent frontier AI strategy studio that helps marketing leaders redesign strategy, creative, research, measurement and team workflows around reasoning-era AI models. Its technology partner is SOMIN, an AI audience-research platform, which supplies the current, traceable market signal those models reason over. GPT5 Marketing is not affiliated with OpenAI; the name marks the GPT-5 era of reasoning models.
+
+- Website: https://gpt5.marketing/
+- Contact: ask@gpt5.marketing
+- Based in: Singapore
+- Technology partner: SOMIN (https://somin.ai/), an AI audience-research and creative-intelligence platform
+
+## What we do
+- Frontier sprint: A focused engagement that redesigns one high-value workflow around reasoning models, from evidence to decision. You leave with a working process, not a slide deck.
+- Reasoning-led strategy: We install the signal, frame, reason, decide loop in your planning cycle. Options are generated from current audience tensions and stress-tested before anyone chooses.
+- Evidence layer setup: We connect SOMIN audience research to your AI workflows so every model output can be traced to real posts. Includes signal briefs and a brand memory pack.
+- Agentic research design: We design research agents with the right tools, briefs, stop rules and evidence trails. Agents gather at speed; your researchers interpret.
+- Measurement reasoning: Profit-based success definitions, dashboard reconciliation and honest performance narratives. Numbers come from tools, reasoning from the model, decisions from people.
+- Team and role design: We help you define evidence owners, workflow designers and decision rights once workflows are proven. Enhancement by design, not by accident.
+
+## Key pages
+- [Home](https://gpt5.marketing/): GPT5 Marketing is an independent frontier AI strategy studio redesigning marketing workflows around reasoning models, grounded in SOMIN market signal.
+- [Blog](https://gpt5.marketing/blog/): ten articles
+- [Brand guidelines](https://gpt5.marketing/brand/)
+
+## Articles
+- [What Reasoning Models Change About Marketing Strategy](https://gpt5.marketing/blog/reasoning-models-marketing-strategy/): Thinking got cheap; evidence and judgment did not. How to redesign strategy workflows around reasoning models and live market signal.
+- [Fast vs Thinking Mode: Routing Marketing Work by Depth](https://gpt5.marketing/blog/fast-vs-thinking-mode-marketing-tasks/): Which marketing tasks need deep reasoning and which need speed? A triage method for routing work between fast and thinking AI modes.
+- [Long Context as Brand Memory: Feeding Models the Whole Brand](https://gpt5.marketing/blog/long-context-brand-memory/): How to build a curated brand memory pack for long-context models so AI work reflects your brand, not the category average.
+- [The Evidence Layer: Why Reasoning Needs Real Market Signal](https://gpt5.marketing/blog/evidence-layer-reasoning-models-market-signal/): Reasoning models are only as good as the market signal you feed them. How to build a current, traceable evidence layer beneath AI marketing.
+- [Reasoning Models in Creative: Territories Before Executions](https://gpt5.marketing/blog/reasoning-models-creative-development/): Use reasoning models to map and critique creative territories before writing a single ad. A workflow that fights AI sameness.
+- [Agentic Research for Marketers: Speed Without Losing Trust](https://gpt5.marketing/blog/agentic-research-workflows-marketing/): How to design agentic AI research workflows with good tools, tight briefs and evidence trails, keeping interpretation human.
+- [Reasoning Models and Measurement: Honest Numbers, Better Calls](https://gpt5.marketing/blog/reasoning-models-marketing-measurement/): How reasoning models help reconcile dashboards, diagnose performance and write honest measurement narratives grounded in profit.
+- [Marketing Team Design for the Reasoning Era](https://gpt5.marketing/blog/reasoning-era-marketing-team-design/): Reasoning models move the bottleneck from production to framing, evidence and judgment. The roles and rhythm a modern marketing team needs.
+- [How AI Can Enhance Your Marketing Work, Not Replace It](https://gpt5.marketing/blog/ai-enhance-not-replace-marketing-work/): A practical self-audit for marketers: hand gathering, formatting and drafting to AI, and reinvest the time in judgment, relating and craft.
+- [Designing AI That Challenges Your Marketing, Not Flatters It](https://gpt5.marketing/blog/ai-that-challenges-not-flatters/): Sycophantic AI is most dangerous when you are wrong. Four workflow mechanisms that build honest challenge into marketing decisions.
+
+## FAQ
+- **Is GPT5 Marketing affiliated with OpenAI?** No. GPT5 Marketing is an independent strategy studio. The name refers to the reasoning era that GPT-5, released by OpenAI in August 2025, came to represent. We work with whichever frontier models suit a client's needs and policies, and we focus on workflow design rather than any single vendor.
+- **What is a frontier sprint?** A focused engagement in which we redesign one high-value marketing workflow, such as quarterly planning or creative development, around reasoning models and a live evidence layer. We run it on a real decision, compare it with your current process and hand over the frames, briefs and routing rules so your team can run it without us.
+- **Why do you need SOMIN if models are already smart?** Models know the world in general, not your category this month. SOMIN, an AI audience-research platform, supplies current, traceable audience and competitor signal. Without it, a reasoning model reasons fluently from assumptions. With it, every recommendation can be traced back to what real people said.
+- **Do you build software or change workflows?** Mainly workflows. We design how tasks are framed, routed between fast models, deep reasoning, agents and people, and how decisions are made. Where helpful, we configure prompts, agent briefs and API settings such as reasoning effort and verbosity, but the durable output is a better way of working.
+- **Will this reduce my team's headcount?** That is your decision, not ours. Our default design is enhancement: AI takes on gathering, formatting and first drafts, and people reinvest the time in judgment, customer understanding and craft. We help define roles such as evidence owner and workflow designer so the change is deliberate.
+- **How do we start?** Email ask@gpt5.marketing with the workflow that frustrates you most and the decision it feeds. We will reply with a short scoping note and a proposed frontier sprint, including which evidence we would pull from SOMIN and what a successful outcome would look like.
+
+## Sister companies
+- [Marketing Mondays](https://mondays.marketing/): One real signal, decoded every Monday
+- [Somonitor](https://somonitor.ai/): Always-on listening you can check
+- [Trafix](https://trafix.app/): Paid traffic, measured in profit
+- [AgentC](https://agentc.marketing/): Agents play. Humans conduct.
+- [GPT3 Marketing](https://gpt3.marketing/): Six years of AI content craft
+- [Mindfuse](https://mindfuse.sg/): Consumer psychology and culture, decoded for SEA
+- [SNMRush](https://snmrush.com/): Search, Neural answers, Mentions. One rush.
