@@ -43,7 +43,7 @@
 ## Sister companies
 - [Marketing Mondays](https://mondays.marketing/): One real signal, decoded every Monday
 - [Somonitor](https://somonitor.ai/): Always-on listening you can check
-- [Trafix](https://trafix.app/): Paid traffic, measured in profit
+- [FMedia](https://fmedia.marketing/): Paid traffic, measured in profit
 - [AgentC](https://agentc.marketing/): Agents play. Humans conduct.
 - [GPT3 Marketing](https://gpt3.marketing/): Six years of AI content craft
 - [Mindfuse](https://mindfuse.sg/): Consumer psychology and culture, decoded for SEA
@@ -166,7 +166,7 @@ At GPT5 Marketing, an independent frontier AI strategy studio, we sort work with
 
 Two failure modes recur. The first is shallow strategy: a team asks a fast model "what should our Q4 message be?" and receives a fluent, generic answer that sounds like every other brand in the category. The second is expensive busywork: deep reasoning applied to a task that needed none, adding latency and cost without improving output. The second is annoying; the first is dangerous, because it looks finished.
 
-Budget decisions illustrate this well. Asking a fast model to "optimise our channel mix" invites vanity logic, chasing reported ROAS rather than true profit. A deep pass, given real cost data and an explicit profit definition, will reason through returns, fees and margin. Tools such as Trafix (https://trafix.app/), which focuses on true-profit ROAS for Meta and Google, are a good example of the kind of structured input that makes deep reasoning about spend worthwhile.
+Budget decisions illustrate this well. Asking a fast model to "optimise our channel mix" invites vanity logic, chasing reported ROAS rather than true profit. A deep pass, given real cost data and an explicit profit definition, will reason through returns, fees and margin. Tools such as FMedia (https://fmedia.marketing/), which focuses on true-profit ROAS for Meta and Google, are a good example of the kind of structured input that makes deep reasoning about spend worthwhile.
 
 ## What should you feed a deep pass?
 
@@ -572,7 +572,7 @@ Note what is missing: we do not ask a model to compute attribution in its head. 
 
 ## Why does the definition of success matter so much?
 
-A reasoning model optimises towards whatever you call success. Tell it to maximise reported ROAS and it will reason efficiently towards channels that claim credit for sales that would have happened anyway. Tell it to maximise contribution profit after returns, fees and discounts, and its recommendations change. Our sister app Trafix (https://trafix.app/) is built around true-profit ROAS for exactly this reason. Writing the profit definition into the frame before any measurement reasoning is non-negotiable in our sprints.
+A reasoning model optimises towards whatever you call success. Tell it to maximise reported ROAS and it will reason efficiently towards channels that claim credit for sales that would have happened anyway. Tell it to maximise contribution profit after returns, fees and discounts, and its recommendations change. Our sister app FMedia (https://fmedia.marketing/) is built around true-profit ROAS for exactly this reason. Writing the profit definition into the frame before any measurement reasoning is non-negotiable in our sprints.
 
 ## Where does audience evidence enter measurement?
 
