@@ -48,6 +48,7 @@
 - [Français](https://gpt5.marketing/fr/) · [blog](https://gpt5.marketing/fr/blog/) (10 articles translated)
 - [Deutsch](https://gpt5.marketing/de/) · [blog](https://gpt5.marketing/de/blog/) (10 articles translated)
 - [Português](https://gpt5.marketing/pt/) · [blog](https://gpt5.marketing/pt/blog/) (10 articles translated)
+- [العربية](https://gpt5.marketing/ar/) · [blog](https://gpt5.marketing/ar/blog/) (10 articles translated)
 
 ## FAQ
 - **Is GPT5 Marketing affiliated with OpenAI?** No. GPT5 Marketing is an independent strategy studio. The name refers to the reasoning era that GPT-5, released by OpenAI in August 2025, came to represent. We work with whichever frontier models suit a client's needs and policies, and we focus on workflow design rather than any single vendor.
