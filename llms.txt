@@ -42,6 +42,7 @@
 - [Tiếng Việt](https://gpt5.marketing/vi/) · [blog](https://gpt5.marketing/vi/blog/) (10 articles translated)
 - [Bahasa Indonesia](https://gpt5.marketing/id/) · [blog](https://gpt5.marketing/id/blog/) (10 articles translated)
 - [Bahasa Melayu](https://gpt5.marketing/ms/) · [blog](https://gpt5.marketing/ms/blog/) (10 articles translated)
+- [हिन्दी](https://gpt5.marketing/hi/) · [blog](https://gpt5.marketing/hi/blog/) (10 articles translated)
 - [Português](https://gpt5.marketing/pt/) · [blog](https://gpt5.marketing/pt/blog/) (6 articles translated)
 
 ## FAQ
