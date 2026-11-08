@@ -32,6 +32,10 @@
 - [How AI Can Enhance Your Marketing Work, Not Replace It](https://gpt5.marketing/blog/ai-enhance-not-replace-marketing-work/): A practical self-audit for marketers: hand gathering, formatting and drafting to AI, and reinvest the time in judgment, relating and craft.
 - [Designing AI That Challenges Your Marketing, Not Flatters It](https://gpt5.marketing/blog/ai-that-challenges-not-flatters/): Sycophantic AI is most dangerous when you are wrong. Four workflow mechanisms that build honest challenge into marketing decisions.
 
+## Other languages
+
+- [Português](https://gpt5.marketing/pt/) · [blog](https://gpt5.marketing/pt/blog/) (6 articles translated)
+
 ## FAQ
 - **Is GPT5 Marketing affiliated with OpenAI?** No. GPT5 Marketing is an independent strategy studio. The name refers to the reasoning era that GPT-5, released by OpenAI in August 2025, came to represent. We work with whichever frontier models suit a client's needs and policies, and we focus on workflow design rather than any single vendor.
 - **What is a frontier sprint?** A focused engagement in which we redesign one high-value marketing workflow, such as quarterly planning or creative development, around reasoning models and a live evidence layer. We run it on a real decision, compare it with your current process and hand over the frames, briefs and routing rules so your team can run it without us.
