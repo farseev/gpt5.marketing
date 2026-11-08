@@ -45,6 +45,7 @@
 - [हिन्दी](https://gpt5.marketing/hi/) · [blog](https://gpt5.marketing/hi/blog/) (10 articles translated)
 - [Filipino](https://gpt5.marketing/fil/) · [blog](https://gpt5.marketing/fil/blog/) (10 articles translated)
 - [Español](https://gpt5.marketing/es/) · [blog](https://gpt5.marketing/es/blog/) (10 articles translated)
+- [Français](https://gpt5.marketing/fr/) · [blog](https://gpt5.marketing/fr/blog/) (10 articles translated)
 - [Português](https://gpt5.marketing/pt/) · [blog](https://gpt5.marketing/pt/blog/) (6 articles translated)
 
 ## FAQ
