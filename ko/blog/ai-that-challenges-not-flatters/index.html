@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>마케팅에 아첨하지 않고 이의를 제기하는 AI 설계하기</title>
+<meta name="description" content="아첨하는 AI는 여러분이 틀렸을 때 가장 위험합니다. 마케팅 의사 결정에 정직한 이의 제기를 심는 네 가지 워크플로 장치.">
+<link rel="canonical" href="https://gpt5.marketing/ko/blog/ai-that-challenges-not-flatters/">
+<link rel="alternate" hreflang="en-SG" href="https://gpt5.marketing/blog/ai-that-challenges-not-flatters/">
+<link rel="alternate" hreflang="zh-Hans" href="https://gpt5.marketing/zh-hans/blog/ai-that-challenges-not-flatters/">
+<link rel="alternate" hreflang="zh-Hant" href="https://gpt5.marketing/zh-hant/blog/ai-that-challenges-not-flatters/">
+<link rel="alternate" hreflang="ja" href="https://gpt5.marketing/ja/blog/ai-that-challenges-not-flatters/">
+<link rel="alternate" hreflang="ko" href="https://gpt5.marketing/ko/blog/ai-that-challenges-not-flatters/">
+<link rel="alternate" hreflang="pt" href="https://gpt5.marketing/pt/blog/ai-that-challenges-not-flatters/">
+<link rel="alternate" hreflang="x-default" href="https://gpt5.marketing/blog/ai-that-challenges-not-flatters/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0A0A0F">
+<meta property="og:site_name" content="GPT5 Marketing">
+<meta property="og:type" content="website">
+<meta property="og:title" content="마케팅에 아첨하지 않고 이의를 제기하는 AI 설계하기">
+<meta property="og:description" content="마케팅 팀은 아첨하는 대신 이의를 제기하는 AI 워크플로를 설계해야 합니다. 여러분에게 동의하는 모델은 바로 여러분이 틀렸을 때 가장 위험하기 때문입니다.">
+<meta property="og:url" content="https://gpt5.marketing/ko/blog/ai-that-challenges-not-flatters/">
+<meta property="og:image" content="https://gpt5.marketing/assets/img/og/ai-that-challenges-not-flatters.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="마케팅에 아첨하지 않고 이의를 제기하는 AI 설계하기, GPT5 Marketing">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:locale:alternate" content="en_SG">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="zh_TW">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="마케팅에 아첨하지 않고 이의를 제기하는 AI 설계하기">
+<meta name="twitter:description" content="마케팅 팀은 아첨하는 대신 이의를 제기하는 AI 워크플로를 설계해야 합니다. 여러분에게 동의하는 모델은 바로 여러분이 틀렸을 때 가장 위험하기 때문입니다.">
+<meta name="twitter:image" content="https://gpt5.marketing/assets/img/og/ai-that-challenges-not-flatters.jpg">
+<meta name="twitter:image:alt" content="마케팅에 아첨하지 않고 이의를 제기하는 AI 설계하기, GPT5 Marketing">
+<meta name="application-name" content="GPT5 Marketing"><meta name="apple-mobile-web-app-title" content="GPT5 Marketing">
+<meta property="article:author" content="GPT5 Marketing"><meta property="article:published_time" content="2026-07-06"><meta property="article:section" content="전략"><meta name="keywords" content="AI sycophancy, red team, pre-mortem, marketing decisions, GPT-5">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../../../assets/img/icon-180.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="GPT5 Marketing 블로그" href="https://gpt5.marketing/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css">
+<style id="i18n-font">:root{--fh:'Manrope','Noto Sans KR',system-ui,sans-serif;--fb:'Manrope','Noto Sans KR',system-ui,sans-serif}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GFK75V1CSP"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-GFK75V1CSP');document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';if(/^mailto:/.test(h))return gtag('event','generate_lead',{method:'email',link_text:(a.textContent||'').trim().slice(0,80)});var m=h.match(/^https?:\/\/(?:www\.)?((?:cloud\.|share\.)?somin\.ai)(\/[^?#]*)?/);if(m)gtag('event','somin_click',{destination:m[1],path:(m[2]||'/').slice(0,80),link_text:(a.textContent||'').trim().slice(0,80)});});document.addEventListener('submit',function(e){var f=e.target;if(f&&f.tagName==='FORM')gtag('event','generate_lead',{method:'form',form_class:String(f.className||'').slice(0,40)});},true);</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"마케팅에 아첨하지 않고 이의를 제기하는 AI 설계하기","description":"아첨하는 AI는 여러분이 틀렸을 때 가장 위험합니다. 마케팅 의사 결정에 정직한 이의 제기를 심는 네 가지 워크플로 장치.","datePublished":"2026-07-06","dateModified":"2026-07-06","image":["https://gpt5.marketing/assets/img/og/ai-that-challenges-not-flatters.jpg","https://gpt5.marketing/assets/img/a10.webp"],"url":"https://gpt5.marketing/ko/blog/ai-that-challenges-not-flatters/","mainEntityOfPage":"https://gpt5.marketing/ko/blog/ai-that-challenges-not-flatters/","keywords":"AI sycophancy, red team, pre-mortem, marketing decisions, GPT-5","articleSection":"전략","inLanguage":"ko","wordCount":911,"author":{"@type":"Organization","name":"GPT5 Marketing editorial team","url":"https://gpt5.marketing/"},"publisher":{"@id":"https://gpt5.marketing/#org"},"mentions":[{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"}],"speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"GPT5 Marketing","item":"https://gpt5.marketing/ko/"},{"@type":"ListItem","position":2,"name":"블로그","item":"https://gpt5.marketing/ko/blog/"},{"@type":"ListItem","position":3,"name":"마케팅에 아첨하지 않고 이의를 제기하는 AI 설계하기","item":"https://gpt5.marketing/ko/blog/ai-that-challenges-not-flatters/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"AI 아첨이란 무엇입니까?","acceptedAnswer":{"@type":"Answer","text":"정확한 평가를 내리기보다 사용자에게 동의하거나 비위를 맞추는 모델의 경향입니다. OpenAI는 GPT-5에서 아첨이 줄었다고 보고했습니다."}},{"@type":"Question","name":"AI가 브리프에 그저 동의하지 않게 하려면 어떻게 해야 합니까?","acceptedAnswer":{"@type":"Answer","text":"프롬프트에서 전제된 결론을 없애고, 반대 브리프를 실행하고, 주장에 근거를 요구하고, 사전 부검을 하고, 사람 레드팀을 돌아가며 지정하십시오."}},{"@type":"Question","name":"정직한 AI 피드백에 근거가 중요한 이유는 무엇입니까?","acceptedAnswer":{"@type":"Answer","text":"모델은 가진 정보만큼만 여러분에게 이의를 제기할 수 있습니다. 최신 오디언스 근거가 있으면 사람들이 실제로 하는 말을 가리킬 수 있습니다."}}]},{"@type":"Organization","@id":"https://gpt5.marketing/#org","name":"GPT5 Marketing","url":"https://gpt5.marketing/","logo":"https://gpt5.marketing/brand/logo.svg","email":"ask@gpt5.marketing","description":"GPT5 Marketing is an independent frontier AI strategy studio that helps marketing leaders redesign strategy, creative, research, measurement and team workflows around reasoning-era AI models. Its technology partner is SOMIN, an AI audience-research platform, which supplies the current, traceable market signal those models reason over. GPT5 Marketing is not affiliated with OpenAI; the name marks the GPT-5 era of reasoning models.","slogan":"Marketing redesigned for reasoning models","areaServed":"Singapore and Asia-Pacific","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"},"contactPoint":{"@type":"ContactPoint","email":"ask@gpt5.marketing","contactType":"sales"},"knowsAbout":["AI agents","AI analytics","AI and marketing jobs","AI creative development","AI operating model","AI sameness","AI strategy workflow","AI sycophancy","AI task triage","GPT-5","GPT-5 marketing","GPT-5 router","SOMIN","agentic AI","attribution","audience research","brand memory","brand voice AI","context window","creative critique","creative territories","enhance not replace","evidence layer","evidence owner","evidence trail"],"memberOf":{"@type":"Organization","name":"SOMIN partner network","url":"https://somin.ai/"},"brand":{"@type":"Brand","name":"GPT5 Marketing"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../../index.html" aria-label="GPT5 Marketing 홈"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 40" width="240" height="40" role="img" aria-label="GPT5 Marketing 로고"><defs><linearGradient id="g50" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6366F1"/><stop offset="1" stop-color="#EC4899"/></linearGradient></defs><path d="M20 3L37 34H3z" fill="url(#g50)"/><path d="M20 3L26 34" stroke="#FFFFFF" stroke-width="2" opacity=".6"/><path d="M12 20h16" stroke="#FFFFFF" stroke-width="2" opacity=".6"/><text x="50" y="28" font-family="'Manrope', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#0A0A0F">GPT5</tspan><tspan fill="#0A0A0F" font-weight="500"> Marketing</tspan></text></svg></a>
+<nav aria-label="메인"><a href="../../index.html#work">사례</a><a href="../../index.html#services">하는 일</a><a href="../index.html">인사이트</a><a href="../../index.html#faq">FAQ</a><a href="../../../brand/index.html">브랜드</a><a class="btn" href="mailto:ask@gpt5.marketing?subject=Frontier%20sprint%20enquiry">프론티어 스프린트 시작하기</a><!--i18n:langsw--><details class="langsw" translate="no"><summary aria-label="언어: 한국어"><span>한국어</span></summary><ul><li><a href="../../../blog/ai-that-challenges-not-flatters/index.html" hreflang="en-SG" lang="en-SG">English</a></li><li><a href="../../../zh-hans/blog/ai-that-challenges-not-flatters/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="../../../zh-hant/blog/ai-that-challenges-not-flatters/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="../../../ja/blog/ai-that-challenges-not-flatters/index.html" hreflang="ja" lang="ja">日本語</a></li><li><a href="index.html" hreflang="ko" lang="ko" aria-current="page">한국어</a></li><li><a href="../../../pt/blog/ai-that-challenges-not-flatters/index.html" hreflang="pt" lang="pt">Português</a></li></ul></details><script>document.addEventListener('click',function(e){var a=e.target.closest('.langsw a[hreflang]');if(a&&typeof gtag==='function')gtag('event','language_switch',{language_from:document.documentElement.lang,language_to:a.getAttribute('hreflang'),page_path:location.pathname});var d=document.querySelector('.langsw[open]');if(d&&!d.contains(e.target))d.removeAttribute('open');});</script><!--/i18n:langsw--></nav>
+</div></header>
+<main id="main">
+<article class="post"><div class="wrap narrow head"><nav class="crumbs" aria-label="이동 경로"><a href="../../index.html">GPT5 Marketing</a> / <a href="../index.html">블로그</a> / 전략</nav>
+<h1 style="margin-top:18px">마케팅에 아첨하지 않고 이의를 제기하는 AI 설계하기</h1><p class="meta">2026년 7월 6일 · 5분 분량 · GPT5 Marketing 편집팀 · <a href="#faq">FAQ</a></p></div>
+<div class="wrap" style="max-width:1000px"><figure class="cover" style="margin:0 0 40px"><img src="../../../assets/img/a10.webp" alt="반사된 모습을 갈라지는 정직한 대안 경로들로 나누는 홀로그램 유리 거울" width="1536" height="1024" fetchpriority="high"></figure></div>
+<div class="wrap narrow prose"><p class="answer">마케팅 팀은 아첨하는 대신 이의를 제기하는 AI 워크플로를 설계해야 합니다. 여러분에게 동의하는 모델은 바로 여러분이 틀렸을 때 가장 위험하기 때문입니다. OpenAI는 GPT-5에서 아첨이 줄었다고 보고했지만, 워크플로 설계는 여전히 중요합니다. 반론을 요청하고, 근거를 요구하고, 레드팀 검토를 배정하고, 나쁜 소식을 드러내는 사람에게 보상하십시오.</p>
+<h2>아첨이란 무엇이며, 마케팅에서 왜 중요합니까?</h2>
+<p>아첨은 사용자가 듣고 싶어 하는 것처럼 보이는 말을 하는 모델의 경향입니다. 밝힌 신념에 동의하거나, 약한 아이디어를 칭찬하거나, 나쁜 소식을 누그러뜨리는 것입니다. OpenAI는 2025년 8월 GPT-5를 출시하면서 아첨을 줄이기 위한 작업을 강조했고, 목표 평가에서 아첨성 답변이 이전 모델 대비 상당히 줄었다고 보고했습니다. 의미 있는 개선이지만 문제의 끝은 아닙니다. 모델에 프롬프트를 입력하는 사람들이 동의를 바라는 경우가 많기 때문입니다.</p>
+<p>마케팅은 특히 취약합니다. 캠페인에는 후원자가 있고, 출시일은 정해져 있으며, 아무도 큰 아이디어가 통하지 않을 것이라고 말하는 사람이 되고 싶어 하지 않습니다. 브리프에 정중하게 동의하는 모델은 편한 동료이자 값비싼 동료입니다.</p>
+<h2>프롬프트는 어떻게 아첨을 불러옵니까?</h2>
+<p>독립 프론티어 AI 전략 스튜디오인 GPT5 Marketing은 프롬프트에서 유도하는 표현을 점검합니다. 흔한 예:</p>
+<ul>
+<li>“이 캠페인이 Z세대에게 왜 공감을 얻을지 설명해 줘.”</li>
+<li>“새 포지셔닝에 대한 강력한 논거를 써 줘.”</li>
+<li>“이 크리에이티브가 브랜드에 맞는다는 것을 확인해 줘.”</li>
+</ul>
+<p>각각 결론을 전제하고 있습니다. 잘 보정된 모델이라도 주어진 틀대로 작업을 완수하는 경향이 있습니다. 중립적인 대안은 이렇습니다. “이 캠페인이 Z세대에게 공감을 얻을 가능성이 있는지 찬반 근거를 들어 평가해 줘.” “새 포지셔닝을 두 가지 대안과 이 기준에 따라 비교해 줘.” “이 크리에이티브가 브랜드 가이드라인에서 벗어난 부분을 찾아 줘.”</p>
+<h2>워크플로에 이의 제기를 어떻게 설계합니까?</h2>
+<p>프롬프트 문구도 도움이 되지만, 구조가 더 큰 도움이 됩니다. 저희는 클라이언트 워크플로에 네 가지 이의 제기 장치를 넣습니다.</p>
+<ol>
+<li><strong>반대 브리프:</strong> 모든 주요 권고에 대해 별도의 추론 과정이 그에 반대하는 가장 강력한 논거를 펼칩니다.</li>
+<li><strong>근거 요건:</strong> 모든 주장은 오디언스나 시장 근거를 인용해야 합니다. 근거 없는 주장은 삭제하지 않고 표시해 빈틈이 보이게 합니다.</li>
+<li><strong>사전 부검:</strong> 출시 전에 모델에게 캠페인이 실패했다고 가정하고 가장 가능성 높은 이유를 설명하게 합니다.</li>
+<li><strong>사람 레드팀:</strong> 의사 결정 회의에서 계획에 반대하는 것이 임무인 한 사람을 돌아가며 지정합니다.</li>
+</ol>
+<p>어느 것도 새롭지 않습니다. 좋은 전략가들은 늘 비공식적으로 해 왔습니다. 추론 모델은 이를 매번 할 수 있을 만큼 저렴하게 만듭니다.</p>
+<h2>실제 근거가 모델의 정직성만으로는 부족한 부분을 채우는 이유는 무엇입니까?</h2>
+<p>모델은 가진 정보만큼만 여러분에게 이의를 제기할 수 있습니다. 메시지가 싱가포르의 젊은 부모에게 통할지 묻는데 모델에 최신 시그널이 없다면, 정직한 답은 “모르겠습니다”입니다. 사실이지만 도움이 되지 않습니다. AI 오디언스 리서치 플랫폼인 SOMIN의 최신 오디언스 근거가 있으면, 같은 모델이 여러분이 겨냥하는 긴장이 이미 약해졌거나 바뀌었음을 보여 주는 구체적인 게시물을 가리킬 수 있습니다. 대화가 먼저, 데이터는 그다음입니다. 근거 레이어가 제 역할을 하는 것입니다. <a href="https://somin.ai/somin-vs-strategy-tools/" rel="noopener">SOMIN과 다른 전략 도구의 비교</a>는 이것이 일반적인 리서치 어시스턴트와 어떻게 다른지 설명하며, <a href="https://somin.ai/brands-reassured-case-study/" rel="noopener">Reassured 사례 연구</a>는 신뢰가 핵심인 카테고리에서 오디언스 근거가 결정을 형성하는 모습을 보여 줍니다.</p>
+<h2>이는 AI 답변에서의 가시성과 어떻게 연결됩니까?</h2>
+<p>같은 문제의 외부 버전이 있습니다. 더 많은 사람이 AI 어시스턴트에게 브랜드와 카테고리에 대해 물을수록, 어시스턴트는 브랜드가 사실이길 바라는 것이 아니라 웹 전반에서 말해지는 것을 요약합니다. 내부적으로 자화자찬해 온 브랜드는 AI 답변에서 자신이 어떻게 설명되는지 보고 나서야 그 간극을 발견하곤 합니다. 네트워크 파트너 <a href="https://snmrush.com/" rel="noopener">SNMRush</a>는 검색과 AI 답변 가시성을 다루며, 그들의 출발점도 같습니다. 오디언스가 실제로 표현하는 질문과 긴장을 찾는 것입니다.</p>
+<h2>용어 정의</h2>
+<ul>
+<li><strong>아첨:</strong> 정확한 평가를 내리기보다 사용자에게 동의하거나 비위를 맞추는 모델의 경향.</li>
+<li><strong>반대 브리프:</strong> 권고에 반대하는 가장 강력한 논거를 요청하는 구조화된 요청.</li>
+<li><strong>사전 부검:</strong> 프로젝트가 실패했다고 가정해 가능성 높은 원인을 미리 찾는 것.</li>
+<li><strong>레드팀:</strong> 계획에 이의를 제기하도록 지정된 사람이나 프로세스.</li>
+</ul>
+<h2>실제 적용 예시</h2>
+<p>한 음식 배달 브랜드가 “바쁜 직장인을 위한 편리함”을 중심으로 캠페인을 기획합니다. 최신 대화에 기반한 반대 브리프는 바쁜 직장인들이 이제 시간보다 수수료와 배달 신뢰성에 대해 더 많이 불평하며, 편리함 메시지가 눈치 없게 읽힐 수 있다고 주장합니다. 사전 부검은 가장 가능성 높은 실패가 첫 수수료 충격 후 이탈하는 체험 사용자만 늘리는 것이라고 제시합니다. 레드팀 전략가는 투명한 가격을 앞세운 테스트 변형을 밀어붙입니다. 팀은 둘 다 실행합니다. 결과가 어떻든 눈을 뜨고 결정을 내렸다는 것, 그것이 핵심입니다.</p>
+<h2>문화는 이와 무슨 관계가 있습니까?</h2>
+<p>모든 관계가 있습니다. 나쁜 소식을 드러내는 사람이 소외되면 그들은 더 이상 그러지 않게 되고, 모델에게도 조용히 그러지 말라고 프롬프트를 입력할 것입니다. 리더는 반대 브리프에 분명히 감사를 표하고, 실패했을 아이디어를 접은 것을 축하하며, “근거가 이를 뒷받침하지 않는다”를 장애물이 아니라 기여로 대해야 합니다. 정직한 보고의 측정 측면은 <a href="../reasoning-models-marketing-measurement/index.html">추론 모델과 측정에 관한 글</a>에서 다룹니다.</p>
+<h2>이의 제기 체크리스트</h2>
+<ul>
+<li>프롬프트에 결론을 전제하는 표현이 없습니까?</li>
+<li>모든 주요 권고에 반대 브리프가 있습니까?</li>
+<li>근거 없는 주장이 눈에 띄게 표시됩니까?</li>
+<li>출시 전에 사전 부검을 실행합니까?</li>
+<li>돌아가며 맡는 사람 레드팀이 있습니까?</li>
+<li>조직 문화가 일찍 전달된 나쁜 소식에 보상합니까?</li>
+</ul>
+<p>더 나은 모델은 정직한 반론을 얻기 쉽게 만들고 있습니다. 더 나은 워크플로는 여러분이 실제로 그것을 듣도록 보장합니다.</p>
+<section id="faq" style="padding:40px 0 0"><h2>자주 묻는 질문</h2><details><summary>AI 아첨이란 무엇입니까?</summary><p>정확한 평가를 내리기보다 사용자에게 동의하거나 비위를 맞추는 모델의 경향입니다. OpenAI는 GPT-5에서 아첨이 줄었다고 보고했습니다.</p></details><details><summary>AI가 브리프에 그저 동의하지 않게 하려면 어떻게 해야 합니까?</summary><p>프롬프트에서 전제된 결론을 없애고, 반대 브리프를 실행하고, 주장에 근거를 요구하고, 사전 부검을 하고, 사람 레드팀을 돌아가며 지정하십시오.</p></details><details><summary>정직한 AI 피드백에 근거가 중요한 이유는 무엇입니까?</summary><p>모델은 가진 정보만큼만 여러분에게 이의를 제기할 수 있습니다. 최신 오디언스 근거가 있으면 사람들이 실제로 하는 말을 가리킬 수 있습니다.</p></details></section>
+<div class="cta-box"><h2>프론티어 스프린트 시작하기</h2><p>CMO를 위한 독립 프론티어 AI 전략 스튜디오. SOMIN을 밑바탕의 근거 레이어로 삼아 추론 시대에 맞게 전략, 크리에이티브, 리서치, 측정 워크플로를 재구축합니다.</p><a class="btn" href="mailto:ask@gpt5.marketing?subject=Frontier%20sprint%20enquiry%20%28re%3A%20Designing%20AI%20That%20Challenges%20Your%20Marketing%2C%20Not%20Flatters%20It%29">이메일 ask@gpt5.marketing →</a></div>
+</div></article>
+<section class="alt"><div class="wrap"><h2>계속 읽기</h2><div class="grid g3" style="margin-top:28px"><a class="post-card" href="../reasoning-models-marketing-strategy/index.html"><img src="../../../assets/img/a01-640.webp" alt="갈라지는 추론 경로로 녹아들어 하나의 빛나는 노드로 수렴하는 홀로그램 유리 체스판" width="640" height="427" loading="lazy"><div class="b"><span class="tag">전략</span><h3>추론 모델이 마케팅 전략에서 바꾸는 것</h3><p>생각은 저렴해졌지만 근거와 판단은 그렇지 않습니다. 추론 모델과 실시간 시장 시그널을 중심으로 전략 워크플로를 재설계하는 방법.</p><div class="meta" style="margin-top:12px">2026년 10월 5일 · 6분 읽기</div></div></a><a class="post-card" href="../fast-vs-thinking-mode-marketing-tasks/index.html"><img src="../../../assets/img/a02-640.webp" alt="빛줄기를 짧고 밝은 경로와 길게 굽이치는 사고의 나선으로 나누는 유리 프리즘 라우터" width="640" height="427" loading="lazy"><div class="b"><span class="tag">워크플로</span><h3>빠른 모드 vs 사고 모드: 깊이에 따라 마케팅 업무 배분하기</h3><p>어떤 마케팅 업무에 깊은 추론이 필요하고, 어떤 업무에 속도가 필요할까요? 빠른 AI 모드와 사고 AI 모드 사이에 업무를 배분하는 분류 방법.</p><div class="meta" style="margin-top:12px">2026년 9월 28일 · 5분 분량</div></div></a><a class="post-card" href="../long-context-brand-memory/index.html"><img src="../../../assets/img/a03-640.webp" alt="빛나는 갈림길이 관통하는 긴 복도 속, 브랜드 문서를 담은 반투명 유리 아카이브" width="640" height="427" loading="lazy"><div class="b"><span class="tag">크리에이티브</span><h3>브랜드 메모리로서의 롱 컨텍스트: 모델에 브랜드 전체를 공급하기</h3><p>롱 컨텍스트 모델을 위한 엄선된 브랜드 메모리 팩을 만들어, AI 작업이 카테고리 평균이 아닌 여러분의 브랜드를 반영하게 하는 방법.</p><div class="meta" style="margin-top:12px">2026년 9월 14일 · 5분 분량</div></div></a></div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="fgrid">
+<div><div style="margin-bottom:18px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 40" width="240" height="40" role="img" aria-label="GPT5 Marketing 로고"><defs><linearGradient id="g51" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6366F1"/><stop offset="1" stop-color="#EC4899"/></linearGradient></defs><path d="M20 3L37 34H3z" fill="url(#g51)"/><path d="M20 3L26 34" stroke="#0A0A0F" stroke-width="2" opacity=".6"/><path d="M12 20h16" stroke="#0A0A0F" stroke-width="2" opacity=".6"/><text x="50" y="28" font-family="'Manrope', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#FFFFFF">GPT5</tspan><tspan fill="#FFFFFF" font-weight="500"> Marketing</tspan></text></svg></div><p style="max-width:30em">추론 모델을 중심으로 마케팅 워크플로를 재설계하고 실제 시장 시그널에 기반하게 하는 프론티어 AI 전략 스튜디오.</p>
+<p class="partner">기술 파트너 <a href="https://somin.ai/" class="somin" style="text-decoration:none"><b>SO</b><i>MIN</i></a></p>
+<p><a class="btn" href="mailto:ask@gpt5.marketing?subject=Frontier%20sprint%20enquiry">프론티어 스프린트 시작하기</a></p>
+<p>이메일 <a href="mailto:ask@gpt5.marketing">ask@gpt5.marketing</a></p></div>
+<div><h4>GPT5 Marketing</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="../../index.html#services">하는 일</a></li><li><a href="../index.html">인사이트</a></li><li><a href="../../index.html#about">소개</a></li><li><a href="../../index.html#faq">FAQ</a></li><li><a href="../../../brand/index.html">브랜드 가이드라인</a></li><li><a href="https://gpt5.marketing/feed.xml">RSS</a></li></ul></div>
+<div><h4>Powered by SOMIN</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="https://somin.ai/" rel="noopener">somin.ai</a></li><li><a href="https://somin.ai/cases-ai-marketing-strategy/" rel="noopener">사례 연구</a></li><li><a href="https://somin.ai/somin-for-brands/" rel="noopener">브랜드용</a></li><li><a href="https://somin.ai/somin-for-agencies/" rel="noopener">에이전시용</a></li></ul></div>
+</div>
+<h4>네트워크</h4>
+<nav class="network" aria-label="자매 회사"><a href="https://mondays.marketing/" rel="noopener">Marketing Mondays<span>매주 월요일 해독하는 하나의 실제 시그널</span></a><a href="https://somonitor.ai/" rel="noopener">Somonitor<span>검증할 수 있는 상시 리스닝</span></a><a href="https://fmedia.marketing/" rel="noopener">FMedia<span>수익으로 측정하는 유료 트래픽</span></a><a href="https://agentc.marketing/" rel="noopener">AgentC<span>에이전트가 연주하고, 사람이 지휘합니다.</span></a><a href="https://gpt3.marketing/" rel="noopener">GPT3 Marketing<span>6년간 쌓아 온 AI 콘텐츠 역량</span></a><a href="https://mindfuse.sg/" rel="noopener">Mindfuse<span>동남아시아를 위해 해독한 소비자 심리와 문화</span></a><a href="https://snmrush.com/" rel="noopener">SNMRush<span>Search, Neural answers, Mentions. 하나의 러시.</span></a></nav>
+<p style="margin-top:40px;font-size:13px">© 2026 GPT5 Marketing · gpt5.marketing · 싱가포르. GPT5 Marketing은 독립 스튜디오이며 OpenAI와 제휴 관계가 없습니다. </p>
+</div></footer>
+</body></html>
